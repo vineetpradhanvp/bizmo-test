@@ -8,11 +8,11 @@ export default function X() {
         
 
     <h1 className=" p-2 inline-block text-gray-500 rounded-lg focus:text-gray-700 focus:bg-gray-100 hover:bg-gray-200" >
-     Y
+     X
     </h1>
 
     <h1 className="p-2 inline-block text-gray-500 rounded-lg focus:text-gray-700 focus:bg-gray-100 hover:bg-gray-200" >
-     Y
+     X
     </h1>
 
 

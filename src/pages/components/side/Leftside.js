@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import A from './side/a';
-import B from './side/b';
+import A from './a';
+import B from './b';
 
 
 
