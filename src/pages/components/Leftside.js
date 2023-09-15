@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import A from "./a";
 import B from "./b";
 
 function Leftside({ setLeftNav }) {
   const [isClicked, setIsClicked] = useState("A");
+
+  useEffect(() => {
+    setLeftNav("");
+  }, [isClicked]);
 
   return (
     <>
